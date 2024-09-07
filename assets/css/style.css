@@ -42,8 +42,8 @@
 * Variable
 ***********************/
 :root{
-	--thm-primary: #2dcd7c;
-	--thm-primary-rgb: 45, 205, 124;
+	--thm-primary: #D03840;
+	--thm-primary-rgb: 208, 56, 64;
 	--thm-secondary: #9cb7bd;
 	--thm-secondary-rgb: 156, 183, 189;
 	--thm-white: #ffffff;
@@ -52,10 +52,10 @@
 	--thm-gray-rgb: 131, 142, 145;
 	--thm-border: #e1e8ea;
 	--thm-border-rgb: 225,232, 234;
-	--thm-black: #003b49;
-	--thm-black-rgb: 0, 59, 73;
-	--thm-dark-black: #01313c;
-	--thm-dark-black-rgb: 1, 49, 60;
+	--thm-black: #005028;
+	--thm-black-rgb: 0, 80, 40;
+	--thm-dark-black: #09220f;
+	--thm-dark-black-rgb: 9, 34, 15;
 	--thm-light-bg: #f3f6f7;
 	--thm-light-bg-rgb: 243, 246, 247;
 	--thm-font: "Manrope",sans-serif;
@@ -511,7 +511,7 @@ a{
 	}
 }
 .topbar-icon i{
-	color: var(--thm-primary);
+	color: var(--thm-white);
 	font-size: 14px;
 }
 .topbar-text a{
@@ -2898,13 +2898,14 @@ a.search-toggler{
 @media(max-width: 991px){
 	.mayor-img img{
 		margin-right: 30px;
+		width: 100%;
 	}
 }
 .mayor-name {
 	position: absolute;
 	text-transform: uppercase;
 	font-weight: 700;
-	letter-spacing: 3px;
+	letter-spacing: 0.6px;
 	line-height: 1;
 	top: 40px;
 	background-color: #fff;
@@ -2927,12 +2928,13 @@ a.search-toggler{
 * Page banner
 ***********************/
 .page-banner{
-	background-image: url("../image/bg/page-banner.png");
+	background-image: url("../image/bg/front-1.png");
 	background-repeat: no-repeat;
 	background-color: var(--thm-black);
 	background-size: cover;
 	padding-top: 122px;
 	padding-bottom: 122px;
+	background-position-y: 82%;
 }
 .page-breadcrumbs ul {
 	display: flex;
@@ -3338,7 +3340,8 @@ a.search-toggler{
 * CTA
 ***********************/
 .cta-one{
-	background-image: url("../image/bg/cta-bg-2.jpg");
+	/* background-image: url("../image/bg/cta-bg-2.jpg"); */
+	background-image: url("../image/bg/front-1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 120px;
@@ -3731,7 +3734,7 @@ a.search-toggler{
 }
 .footer-widget-logo{
 	padding: 45px 60px;
-	max-width: 250px;
+	max-width: 500px;
 	align-items: center;
 	color: var(--thm-white);
 	display: inline-block;
