@@ -2723,7 +2723,7 @@ a.search-toggler{
 .funfact-section {
 	padding-top: 120px;
 	padding-bottom: 111px;
-	background-color: var(--thm-primary);
+	background-color: var(--thm-dark-black);
 	background-image: url(../image/bg/funfact-bg-1.png);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -2756,7 +2756,7 @@ a.search-toggler{
 	width: 102px;
 	height: 102px;
 	background-color: var(--thm-black);
-	color: var(--thm-primary);
+	color: var(--thm-white);
 	font-size: 54px;
 	flex-shrink: 0;
 	margin-right: 25px;
